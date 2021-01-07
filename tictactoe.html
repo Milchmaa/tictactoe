@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h3>Tic Tac Toe</h3>
+    <button onclick="restart()">Restart!</button>
+    <label id="label"></label>
+    <div class="Game">
+        <table>
+            <tr>
+                <th><input type="button" id="1" onclick="checkPlayer(this.id)"> </button></th>
+                <th><input type="button" id="2" onclick="checkPlayer(this.id)"> </button></th>
+                <th><input type="button" id="3" onclick="checkPlayer(this.id)"> </button></th>
+            </tr>
+            <tr>
+                <th><input type="button" id="4" onclick="checkPlayer(this.id)"> </button></th>
+                <th><input type="button" id="5" onclick="checkPlayer(this.id)"> </button></th>
+                <th><input type="button" id="6" onclick="checkPlayer(this.id)"> </button></th>
+            </tr>
+            <tr>
+                <th><input type="button" id="7" onclick="checkPlayer(this.id)"> </button></th>
+                <th><input type="button" id="8" onclick="checkPlayer(this.id)"> </button></th>
+                <th><input type="button" id="9" onclick="checkPlayer(this.id)"> </button></th>
+            </tr>
+            
+        </table>
+    </div>
+
+    <script src="application.js"></script>
+</body>
+
+</html>
