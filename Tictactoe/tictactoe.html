@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Tic Tac Toe</h1>
+            <label id="label" class="statusLabel" style="font-size: 20px;" > </label>
+        </div>
+        <div class="main">
+            <div class="mainButton">
+                <input type="button" style="background-color: white;" id="1" onclick="checkPlayer(this.id)"></button>
+                <input type="button" style="background-color: white;" id="2" onclick="checkPlayer(this.id)"></button>
+                <input type="button" style="background-color: white;" id="3" onclick="checkPlayer(this.id)"></button>
+            </div>
+            <div class="mainButton">
+                <input type="button" style="background-color: white;" id="4" onclick="checkPlayer(this.id)"></button>
+                <input type="button" style="background-color: white;" id="5" onclick="checkPlayer(this.id)"></button>
+                <input type="button" style="background-color: white;" id="6" onclick="checkPlayer(this.id)"></button>¨
+            </div>
+            <div class="mainButton">
+                <input type="button" style="background-color: white;" id="7" onclick="checkPlayer(this.id)"></button>
+                <input type="button" style="background-color: white;" id="8" onclick="checkPlayer(this.id)"></button>
+                <input type="button" style="background-color: white;" id="9" onclick="checkPlayer(this.id)"></button>
+            </div>
+        </div>
+        <div class="footer"><button onclick="restart()" class="restartButton">Restart!</button></div>
+    </div>
+
+    <script src="application.js"></script>
+</body>
+
+</html>
